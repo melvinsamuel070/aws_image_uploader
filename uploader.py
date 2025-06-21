@@ -7,7 +7,7 @@ import time
 ## create the s3 client 
 s3 = boto3.client("s3")
 
-bucket_name = "cyclocore1" ## bucket name should come from API secret manager 
+bucket_name = "cyclocore12" ## bucket name should come from API secret manager 
 
 def lambda_handler(event, context): 
     ## This code expects the client to send data in the form of JSON
